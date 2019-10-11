@@ -2,8 +2,10 @@
 
 - Add to pubspec.yaml the dependencies below, afeter "cupertino_icons":
 
+```bash
 path_provider: ^1.3.0
 image_picker: ^0.6.1+4
+```
 
 ### Setup the iOS configuration to use Camera permission
 
