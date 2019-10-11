@@ -25,12 +25,8 @@ image_picker: ^0.6.1+4
 The return default type is base64, but you can change the flag "getBase64" to false if you preferer the "File" type.
 
 ```bash
-1 - Future<File> openCamera: 
+1 - Future<dynamic> openCamera: 
 Open the Camera and return the image 
 
-2 - Future<File> openGallery: 
+2 - Future<dynamic> openGallery: 
 Open the Gallery and return the image 
-
-3 - Future<void> optionsDialogBox:
-Open a modal to give the option "Camera" and "Gallery"
-```
